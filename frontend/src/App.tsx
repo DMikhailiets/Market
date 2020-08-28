@@ -7,7 +7,7 @@ import 'antd/dist/antd.css'
 function App() {
   return (
     <div className="App">
-      <Route path="/home" render = { () => <HomePage/>}/>
+      <Route path="" render = { () => <HomePage/>}/>
     </div>
   );
 }

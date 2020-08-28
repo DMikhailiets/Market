@@ -61,7 +61,7 @@ const MenuComponent: React.FC<MenuComponentProps> = (
                         </Badge>   
                     </Menu.Item>
                     <Menu.Item  key="2">
-                        <NavLink to='/home/history'>
+                        <NavLink to='/history'>
                             <HistoryOutlined />
                             <span>History</span>    
                         </NavLink>    

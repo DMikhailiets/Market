@@ -48,8 +48,8 @@ const HomeComponent: React.FC<HomeComponentPropsType> = (
             />
         </React.Suspense>
         <Layout style={{height: '100vh'}}>
-        <Route exact path="/home" render = { () => <PizzaPage/>}/>
-        <Route path="/home/history" render = { () => <HistoryPage/>}/>
+        <Route exact path="" render = { () => <PizzaPage/>}/>
+        <Route path="/history" render = { () => <HistoryPage/>}/>
         </Layout>
         <Sider 
             reverseArrow={true}   
